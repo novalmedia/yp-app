@@ -24,6 +24,7 @@ bottom: 0;
 width: 100%;
 text-align: center;
 }
+#app {min-height: 700px;}
 
 .home #app {
     position: absolute; 
