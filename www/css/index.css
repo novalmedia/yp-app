@@ -113,3 +113,88 @@ text-align: center;padding: 25px 0;}
 
 
 .teamsel footer .logo {margin-bottom: 65px;}
+
+
+@media screen and (max-width: 420px) {
+		  body {
+			font-size:14px;
+		}
+		#app {min-height: 700px;}
+
+
+		.home #app > a {font-family: "OpenSans Semibold";color:#535353;font-size: 14px;clear: both;width: 80%; margin: 36px 10%;display: block;border: 3px solid #535353;text-decoration: none;
+		text-align: center;padding: 25px 0;}
+		.home #app h2 {font-family: "OpenSans Semibold";color:#535353;font-size: 12px;width: 100%; text-align: center;}
+		.home #app > a.facebook {background: url(../images/fb-link.png) no-repeat right center transparent;}
+		.home #app > a.google {background: url(../images/go-link.png) no-repeat right center transparent;}
+		.home #app > a.login {font-size: 18px;padding: 21px 0;}
+		.home footer .logo {margin-bottom: 65px;}
+		.home footer .languages {font-family: "OpenSans Semibold";color:#535353;font-size: 10px;}
+		.home footer .languages a{font-family: "OpenSans Semibold";color:#eb5d59;font-size: 10px;}
+
+
+
+		.leaguesel footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		}
+
+		.leaguesel #app {
+			position: absolute; 
+			top: 0; 
+			left: 0; 
+			width: 100%; 
+			height: 90%; 
+			-webkit-transform: translate3d(0, 0, 0); 
+			transform: translate3d(0, 0, 0); 
+			-webkit-transition-duration: .25s; 
+			transition-duration: .25s; 
+		}
+		.leaguesel #app {background-image: url(../images/bg_leaguesel.jpg);background-size: cover;background-position: 0 0;background-repeat: no-repeat;padding-top: 15%;}
+
+		.leaguesel #app > a {font-family: "OpenSans Semibold";color:#535353;font-size: 14px;clear: both;width: 80%; margin: 36px 10%;display: block;border: 3px solid #535353;text-decoration: none;
+		text-align: center;padding: 25px 0;}
+		.leaguesel #app h2 {font-family: "OpenSans Semibold";color:#535353;font-size: 12px;width: 100%; text-align: center;}
+		.leaguesel #app > a.premier {background: url(../images/premier.png) no-repeat right center transparent;background-size: 60px auto;}
+		.leaguesel #app > a.bundesliga {background: url(../images/bundesliga.png) no-repeat right center transparent;background-size:  60px auto;}
+		.leaguesel #app > a.liga {background: url(../images/liga.png) no-repeat right center transparent;background-size:  60px auto;}
+		.leaguesel #app > a.seriea {background: url(../images/seriea.png) no-repeat right center transparent;background-size:  60px auto;}
+
+		.leaguesel footer .logo {margin-bottom: 65px;}
+
+
+		.teamsel footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		}
+
+		.teamsel #app {
+			position: absolute; 
+			top: 0; 
+			left: 0; 
+			width: 100%; 
+			height: 90%; 
+			-webkit-transform: translate3d(0, 0, 0); 
+			transform: translate3d(0, 0, 0); 
+			-webkit-transition-duration: .25s; 
+			transition-duration: .25s; 
+		}
+		.teamsel #app {background-image: url(../images/bg_leaguesel.jpg);background-size: cover;background-position: 0 0;background-repeat: no-repeat;padding-top: 15%;}
+
+		.teamsel #app > a {font-family: "OpenSans Semibold";color:#535353;font-size: 14px;clear: both;width: 80%; margin: 36px 10%;display: block;border: 3px solid #535353;text-decoration: none;
+		text-align: center;padding: 25px 0;}
+		.teamsel #app h2 {font-family: "OpenSans Semibold";color:#535353;font-size: 12px;width: 100%; text-align: center;}
+
+		.teamsel #app > a.realmadrid {background: url(../images/realmadrid.png) no-repeat right center transparent;background-size:  40px auto;}
+		.teamsel #app > a.barcelona {background: url(../images/barcelona.png) no-repeat right center transparent;background-size: 40px auto;}
+		.teamsel #app > a.atleticodemadrid {background: url(../images/atleticodemadrid.png) no-repeat right center transparent;background-size: 40px auto;}
+		.teamsel #app > a.getafe {background: url(../images/getafe.png) no-repeat right center transparent;background-size: 40px auto;}
+
+
+		.teamsel footer .logo {margin-bottom: 65px;}
+		 
+}
