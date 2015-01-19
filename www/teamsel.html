@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description"content="Club Mascodin" />
+
+<title>YouPlay</title>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body class="teamsel">
+<div id="app">
+	
+	<h2>SELECCIONA TU EQUIPO</h2>
+	<a href="#" class="realmadrid" onclick="addNotification('realmadrid');">real madrid</a>
+	<a href="#" class="barcelona">barcelona</a>
+	<a href="#" class="atleticodemadrid">atletico de madrid</a>
+	<a href="#" class="getafe">getafe</a>
+	
+	<footer>
+		<div class="logo"><img src="images/logo.png" /></div>
+	</footer>
+</div>
+	<script type="text/javascript">
+            app.initialize();
+			function addNotification(team) {
+				window.plugin.notification.local.add({
+					id:      1,
+					title:   'YouPlay',
+					icon: 'images/'+team+'.png'
+				});
+			}
+        </script>
+</body>
+</html>

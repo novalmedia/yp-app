@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf") format("opentype");   
+}
+@font-face {
+    font-family: "Lato Bold";
+    src: url("../fonts/Lato-Bold.ttf") format("opentype");   
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.ttf") format("opentype");   
+}
+@font-face {
+    font-family: "OpenSans Semibold";
+    src: url("../fonts/OpenSans-Semibold.ttf") format("opentype");   
+}
+body {
+	font-family: "Lato";
+	font-size:18px;
+}
+.home footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+
+.home #app {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 90%; 
+    -webkit-transform: translate3d(0, 0, 0); 
+    transform: translate3d(0, 0, 0); 
+	-webkit-transition-duration: .25s; 
+    transition-duration: .25s; 
+}
+.home #app {background-image: url(../images/bg_home.jpg);background-size: cover;background-position: 0 0;background-repeat: no-repeat;padding-top: 15%;}
+
+.home #app > a {font-family: "OpenSans Semibold";color:#535353;font-size: 28px;clear: both;width: 80%; margin: 36px 10%;display: block;border: 3px solid #535353;text-decoration: none;
+text-align: center;padding: 25px 0;}
+.home #app h2 {font-family: "OpenSans Semibold";color:#535353;font-size: 24px;width: 100%; text-align: center;}
+.home #app > a.facebook {background: url(../images/fb-link.png) no-repeat right center transparent;}
+.home #app > a.google {background: url(../images/go-link.png) no-repeat right center transparent;}
+.home #app > a.login {font-size: 36px;padding: 21px 0;}
+.home footer .logo {margin-bottom: 65px;}
+.home footer .languages {font-family: "OpenSans Semibold";color:#535353;font-size: 20px;}
+.home footer .languages a{font-family: "OpenSans Semibold";color:#eb5d59;font-size: 20px;}
+
+
+
+.leaguesel footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+
+.leaguesel #app {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 90%; 
+    -webkit-transform: translate3d(0, 0, 0); 
+    transform: translate3d(0, 0, 0); 
+	-webkit-transition-duration: .25s; 
+    transition-duration: .25s; 
+}
+.leaguesel #app {background-image: url(../images/bg_leaguesel.jpg);background-size: cover;background-position: 0 0;background-repeat: no-repeat;padding-top: 15%;}
+
+.leaguesel #app > a {font-family: "OpenSans Semibold";color:#535353;font-size: 28px;clear: both;width: 80%; margin: 36px 10%;display: block;border: 3px solid #535353;text-decoration: none;
+text-align: center;padding: 25px 0;}
+.leaguesel #app h2 {font-family: "OpenSans Semibold";color:#535353;font-size: 24px;width: 100%; text-align: center;}
+.leaguesel #app > a.premier {background: url(../images/premier.png) no-repeat right center transparent;}
+.leaguesel #app > a.bundesliga {background: url(../images/bundesliga.png) no-repeat right center transparent;}
+.leaguesel #app > a.liga {background: url(../images/liga.png) no-repeat right center transparent;}
+.leaguesel #app > a.seriea {background: url(../images/seriea.png) no-repeat right center transparent;}
+
+.leaguesel footer .logo {margin-bottom: 65px;}
+
+
+.teamsel footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+
+.teamsel #app {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 90%; 
+    -webkit-transform: translate3d(0, 0, 0); 
+    transform: translate3d(0, 0, 0); 
+	-webkit-transition-duration: .25s; 
+    transition-duration: .25s; 
+}
+.teamsel #app {background-image: url(../images/bg_leaguesel.jpg);background-size: cover;background-position: 0 0;background-repeat: no-repeat;padding-top: 15%;}
+
+.teamsel #app > a {font-family: "OpenSans Semibold";color:#535353;font-size: 28px;clear: both;width: 80%; margin: 36px 10%;display: block;border: 3px solid #535353;text-decoration: none;
+text-align: center;padding: 25px 0;}
+.teamsel #app h2 {font-family: "OpenSans Semibold";color:#535353;font-size: 24px;width: 100%; text-align: center;}
+
+.teamsel #app > a.realmadrid {background: url(../images/realmadrid.png) no-repeat right center transparent;}
+.teamsel #app > a.barcelona {background: url(../images/barcelona.png) no-repeat right center transparent;}
+.teamsel #app > a.atleticodemadrid {background: url(../images/atleticodemadrid.png) no-repeat right center transparent;}
+.teamsel #app > a.getafe {background: url(../images/getafe.png) no-repeat right center transparent;}
+
+
+.teamsel footer .logo {margin-bottom: 65px;}
