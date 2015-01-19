@@ -39,6 +39,10 @@
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
+    <icon src="res/drawable/android/realmadrid.png" gap:platform="android" />
+    <icon src="res/drawable/android/barcelona.png" gap:platform="android" />
+    <icon src="res/drawable/android/atleticodemadrid.png" gap:platform="android" />
+    <icon src="res/drawable/android/getafe.png" gap:platform="android" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
