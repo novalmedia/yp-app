@@ -16,10 +16,10 @@
 <div id="app">
 	
 	<h2>SELECCIONA TU EQUIPO</h2>
-	<a href="#" class="realmadrid" onclick="addNotification('realmadrid');">real madrid</a>
-	<a href="#" class="barcelona">barcelona</a>
-	<a href="#" class="atleticodemadrid">atletico de madrid</a>
-	<a href="#" class="getafe">getafe</a>
+	<a href="#" class="realmadrid" onclick="addNotification('realmadrid','Real Madrid');">real madrid</a>
+	<a href="#" class="barcelona" onclick="addNotification('barcelona','Barcelona');">barcelona</a>
+	<a href="#" class="atleticodemadrid" onclick="addNotification('atleticodemadrid','Atletico de Madrid');">atletico de madrid</a>
+	<a href="#" class="getafe" onclick="addNotification('getafe','Getafe');">getafe</a>
 	
 	<footer>
 		<div class="logo"><img src="images/logo.png" /></div>
@@ -27,11 +27,12 @@
 </div>
 	<script type="text/javascript">
             app.initialize();
-			function addNotification(team) {
+			function addNotification(team, title) {
 				window.plugin.notification.local.add({
 					id:      1,
-					title:   'YouPlay',
-					icon: 'images/'+team+'.png'
+					title:   'YouPlay: '+title,
+					icon: '/images/'+team+'.png',
+					ongoing: true
 				});
 			}
         </script>
